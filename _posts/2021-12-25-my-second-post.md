@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Introduction to Python
-subtitle: Each post also has a subtitle
-categories: Python
-tags: [Python, intro, certificate]
+title: AI in Medicine
+subtitle: Disease Prediction models
+categories: Medicine
+tags: [AI, intro, Medicine]
 ---
 
-## Introduction to Python
+## Disease Predictions Model
 
-This post is meant to summarize some of the key concepts I have learned in the course *Introduction to Python*
+Exploring various machine learning models that can help in disease progression prediction. 
 
 
 ![datacamp certification](/assets/images/banners/datacamp_certificate_dummy.jpg)
