@@ -24,9 +24,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@domain.com
-author: GitHub User
+title: Joseph Kariuki
+email: josekaris328@gmail.com
+author: Joseph Kariuki
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -40,12 +40,10 @@ author: GitHub User
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
+copyright: "Unpublished Work (cleft) 2024-{currentYear} {joseph kariuk}"
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi, I’m Joseph Kariuki, a passionate data enthusiast with a background in Clinical Medicine and Community Health. I am on a mission to harness the power of data science to drive impactful solutions in healthcare, finance, and beyond.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
