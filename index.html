@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joseph Kariuki — Clinician & Data Scientist</title>
+  <meta name="description" content="Joseph Kariuki is a clinician and data scientist in Nairobi, Kenya, building machine learning models, health dashboards, and AI tools grounded in frontline medical practice." />
+
+  <!-- Open Graph (link previews on WhatsApp, LinkedIn, X) -->
+  <meta property="og:title" content="Joseph Kariuki — Clinician & Data Scientist" />
+  <meta property="og:description" content="Machine learning, health dashboards, and AI tools built by a practising clinician in Nairobi." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-image.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="nav" id="top">
+    <a class="nav-name" href="#top">J. Kariuki</a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  
+    <a class="btn btn-solid nav-cv" href="assets/Joseph_Kariuki_CV1.docx" download>Download CV</a>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <p class="eyebrow">Nairobi, Kenya · Open to opportunities</p>
+      <h1>
+        Clinician by training.<br />
+        Data scientist by <em>build</em>.
+      </h1>
+      <p class="hero-sub">
+        I'm Joseph Kariuki — a practising clinician who designs machine learning models,
+        health dashboards, and AI tools. I turn ward-round reality into working software:
+        risk models you can explain, dashboards people actually read, and bots that keep
+        patients on track between visits.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="#projects">See my work</a>
+        <a class="btn btn-ghost" href="https://github.com/Josekariuki" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+
+      <!-- Signature: a heartbeat that becomes a data line -->
+      <div class="pulse-wrap" aria-hidden="true">
+        <svg class="pulse" viewBox="0 0 1200 160" preserveAspectRatio="none">
+          <polyline class="pulse-line" fill="none" stroke-linecap="round" stroke-linejoin="round"
+            points="0,110 150,110 175,110 195,60 215,140 235,40 255,120 275,110 330,110
+                    420,110 470,104 520,108 570,92 620,96 670,78 720,84 770,64 820,70
+                    870,52 920,58 970,40 1020,46 1070,28 1120,34 1170,18 1200,20" />
+          <circle class="pulse-dot" cx="1200" cy="20" r="5" />
+        </svg>
+        <div class="pulse-labels">
+          <span>medicine</span>
+          <span>data</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <p class="eyebrow">Hx — Background</p>
+      <h2>Two careers, one skill: reading signals carefully</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I hold a degree in Clinical Medicine &amp; Community Health from JKUAT and currently
+            practise as a medical intern in Murang'a County, working across medical, surgical,
+            paediatric, and obstetric wards. My days involve reviewing patient histories,
+            auditing mortality cases, and presenting findings that change how care is delivered.
+          </p>
+          <p>
+            In parallel, I build with Python. Diagnosis and data science are the same discipline
+            wearing different coats: gather evidence, weigh it honestly, commit to a decision,
+            and audit the outcome. That's how I approach every model, dashboard, and pipeline
+            I ship.
+          </p>
+          <p>
+            I'm most useful at the intersection — health analytics, clinical risk modelling,
+            case management, and AI products that need someone who has actually worked the
+            front line they're built for.
+          </p>
+        </div>
+        <ul class="fact-list">
+          <li><span class="fact-k">Based in</span><span class="fact-v">Nairobi / Murang'a, KE</span></li>
+          <li><span class="fact-k">Clinical</span><span class="fact-v">Medicine, mortality audits (MPDSR)</span></li>
+          <li><span class="fact-k">Technical</span><span class="fact-v">Python · ML · dashboards · APIs</span></li>
+          <li><span class="fact-k">Currently</span><span class="fact-v">Medical intern &amp; freelance builder</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <p class="eyebrow">Ix — Selected work</p>
+      <h2>Projects</h2>
+      <p class="section-sub">Deployed, documented, and built to be poked at. Demos open in a new tab.</p>
+
+      <div class="cards">
+
+        <article class="card">
+          <p class="card-tags">Python · XGBoost · SHAP · Streamlit</p>
+          <h3>Disease Prediction Model</h3>
+          <p class="card-metric">AUC 0.843</p>
+          <p>
+            A diabetes risk-prediction model with fully explainable outputs. SHAP values show
+            clinicians <em>why</em> a patient scores high — because a model nobody trusts is a
+            model nobody uses.
+          </p>
+          <div class="card-links">
+            <!-- TODO: replace # with your Streamlit demo URL -->
+            <a class="btn btn-small btn-solid" href="#" target="_blank" rel="noopener">Live demo ↗</a>
+            <a class="btn btn-small btn-ghost" href="https://github.com/Josekariuki/Diabetes-prediction" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <p class="card-tags">Python · Pandas · Streamlit · Plotly</p>
+          <h3>Patient Data Dashboard</h3>
+          <p class="card-metric">Deployed on Streamlit Cloud</p>
+          <p>
+            Exploratory analysis of patient records turned into an interactive dashboard —
+            admissions, diagnoses, and outcomes, presented so a hospital administrator can
+            act on them without touching a notebook.
+          </p>
+          <div class="card-links">
+            <!-- TODO: replace # with your Streamlit demo URL -->
+            <a class="btn btn-small btn-solid" href="#" target="_blank" rel="noopener">Live demo ↗</a>
+            <a class="btn btn-small btn-ghost" href="https://github.com/Josekariuki/patient-dashboard" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <p class="card-tags">Telegram API · AI APIs · Notion</p>
+          <h3>Elevate Health Bot</h3>
+          <p class="card-metric">Client project — lifestyle disease clinic</p>
+          <p>
+            An AI-powered Telegram bot handling patient intake, health-metric collection,
+            red-flag detection, and automated reminders for a chronic disease clinic —
+            end-to-end, from prompt design to structured records.
+          </p>
+          <div class="card-links">
+            <a class="btn btn-small btn-ghost" href="https://github.com/Josekariuki" target="_blank" rel="noopener">Case study on request</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <p class="card-tags">Python · Streamlit · Plotly</p>
+          <h3>Kenya Payments Ecosystem Dashboard</h3>
+          <p class="card-metric">Fintech &amp; policy analytics</p>
+          <p>
+            An interactive view of Kenya's digital payments landscape — mobile money, cards,
+            and interbank flows — built for policy and business audiences from structured
+            public datasets.
+          </p>
+          <div class="card-links">
+            <!-- TODO: replace # with your Streamlit demo URL -->
+            <a class="btn btn-small btn-solid" href="#" target="_blank" rel="noopener">Live demo ↗</a>
+            <a class="btn btn-small btn-ghost" href="https://github.com/Josekariuki" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="card card-live">
+          <p class="card-tags">Python · football-data API · In progress</p>
+          <h3>World Cup 2026 Analytics Series</h3>
+          <p class="card-metric">Publishing through the final — July 19, 2026</p>
+          <p>
+            A live analytics series on the 2026 World Cup: match data pipelines, win-probability
+            modelling, and visual storytelling, shipped in public while the tournament runs.
+          </p>
+          <div class="card-links">
+            <a class="btn btn-small btn-ghost" href="https://github.com/Josekariuki" target="_blank" rel="noopener">Follow along</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <p class="eyebrow">Rx — What I work with</p>
+      <h2>Skills &amp; credentials</h2>
+      <div class="skills-grid">
+        <div class="skills-col">
+          <h3>Clinical</h3>
+          <ul>
+            <li>Patient assessment &amp; treatment planning</li>
+            <li>Mortality audit &amp; case review (MPDSR)</li>
+            <li>Health education &amp; chronic disease management</li>
+            <li>Medical documentation &amp; MOH reporting standards</li>
+            <li>Multidisciplinary care coordination</li>
+          </ul>
+        </div>
+        <div class="skills-col">
+          <h3>Data &amp; engineering</h3>
+          <ul>
+            <li>Python — Pandas, Scikit-learn, XGBoost, SHAP</li>
+            <li>Dashboards — Streamlit, Plotly, Power BI (basic)</li>
+            <li>APIs &amp; apps — FastAPI, REST, Telegram bots</li>
+            <li>LLM integration — Anthropic &amp; Gemini APIs</li>
+            <li>Git, SQL, deployment on Streamlit Cloud</li>
+          </ul>
+        </div>
+        <div class="skills-col">
+          <h3>Education</h3>
+          <ul>
+            <li>BSc Clinical Medicine &amp; Community Health — JKUAT, 2024</li>
+            <li>Data Science &amp; ML Bootcamp — 2024–present</li>
+            <li>Continuous professional education in health &amp; AI</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <p class="eyebrow">Plan — Next steps</p>
+      <h2>Let's work together</h2>
+      <p class="section-sub">
+        Hiring for health analytics, case management, or a data role that needs clinical judgment?
+        I reply fast.
+      </p>
+      <div class="contact-actions">
+        <a class="btn btn-solid" href="mailto:josekaris328@gmail.com">josekaris328@gmail.com</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/joseph-kariuki-936092193" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a class="btn btn-ghost" href="https://github.com/Josekariuki" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Joseph Kariuki · Built by hand, deployed on GitHub Pages</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
